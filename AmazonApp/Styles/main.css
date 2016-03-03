@@ -1,0 +1,237 @@
+﻿
+html {
+    overflow-y: scroll;
+}
+
+.loading_screen {
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.top_bar {
+    width:100%;
+    height: 50px;
+    margin: 0, auto;
+    display: table;
+}
+
+.search_bar {
+    margin: 0 auto;
+    max-width:700px;
+    display:inherit;
+}
+
+.exchange_rate_container {
+    position: fixed;
+    right: 5px;
+    top: 55px;
+}
+
+.exchange_rate_select {
+
+}
+
+.search_index {
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float:left;
+    background-color: #f1f1f1;
+    color:black;
+}
+
+.search_container {
+    float:left;
+    width: 50%;
+    max-width: 500px;
+    /* for the sake of convenience, let's assume there are no phones below 300px width*/
+    min-width: 300px;
+    margin-bottom: 5px;
+}
+
+.search_field {
+    height: 30px;
+    width: 80%;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    float:left;
+    background-color: #f1f1f1;
+    color:black;
+}
+
+.search_button {
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.search_button:active {
+    margin-left: 1px;
+    margin-top: 11px;
+    height: 28px;
+    width: 28px;
+}
+
+.table_container {
+    margin: 0 auto;
+    width:100%;
+    max-width:700px;
+}
+
+.products_table {
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0 5px;
+}
+
+.products_table tr {
+    width:100%;
+    height:80px;
+    background-color: #fafafa;
+}
+
+.row_image {
+    width:15%;
+}
+
+.row_title {
+    width: 85%;
+    font-weight:600;
+    text-align:left;
+    padding-left: 10px;
+    vertical-align:top;
+    padding-top:5px;
+    display:block;
+}
+
+.row_price {
+    margin-top: 10px;
+    padding-left: 10px;
+    width:85%;
+    color: #b12704;
+    font-weight: 600;
+    display:block;
+}
+
+.product_image {
+    object-fit: contain;
+}
+
+.final_row {
+    text-align: center;
+}
+
+.list_footer {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    /*height: 50px;*/
+    display:table;
+}
+
+.table_footer_item {
+    height: 100%;
+    float:left;
+    text-align: center;
+}
+
+.total_products {
+    width: 20%;
+    min-width: 150px;
+    vertical-align:middle;
+    line-height: 50px;
+}
+
+.paging_container {
+    width: 80%;
+    max-width: 550px;
+    display:inline;
+}
+
+.navigation_container {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 12.5px;
+    display:table;
+    height: 25px;
+    position: relative;
+    text-align:center;
+}
+
+.page_number_container {
+    vertical-align:middle;
+    line-height: 25px;
+    position: relative;
+    color: dodgerblue;
+    font-size: 11px;
+}
+
+.paging_item {
+    float:left;
+    margin: 0 auto;
+    vertical-align:middle;
+    line-height: 25px;
+    position: relative;
+    color:white;
+    background-color:dodgerblue;
+    border: 1px solid dodgerblue;
+    margin-left: 1px;
+    width: 60px;
+    visibility: hidden;
+    font-size: 11px;
+}
+
+.paging_item:hover {
+    text-decoration: none;
+    color: black;
+    outline:none;
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.previous_button {
+    margin-right: 5px;
+}
+
+.loading_small {
+    position:absolute;
+    visibility:hidden;
+    width: 60px;
+    height: 27px;
+    right: 0px;
+    color:black;
+}
+
+.loading_spinner {
+    height: 20px;
+    width: 20px;
+}
+
+.next_button {
+    margin-left: 5px;
+}
+
+.page_number_container {
+    float:left;
+}
+
+.about_container {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+

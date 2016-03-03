@@ -1,0 +1,10 @@
+bin
+obj
+info.txt
+rootkey.csv
+*.pidb
+*.userprefs
+*.suo
+.DS_Store
+.hg
+.hgignore

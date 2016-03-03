@@ -1,0 +1,60 @@
+﻿
+@model List<AmazonApp.Models.Product>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="top_bar">
+
+    <div class="search_bar">
+        <select class="search_index"> </select>
+
+        <div class="search_container">
+            <input class="search_field" placeholder="Search" />
+            <img class="search_button" src="@Url.Content("~/Content/Images/icon_search.png")" alt="Search" />
+        </div>
+    </div>
+    <div class="exchange_rate_container">
+        <select class="exchange_rate_select"></select>
+    </div>
+
+</div>
+
+<div class="productlist">
+
+    <div class="table_container">
+        <div class="loading_screen">
+
+        </div>
+        <table class="products_table">
+            <thead>
+
+            </thead>
+            <tbody>
+                <tr>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+<div class="list_footer">
+    <div class="table_footer_item total_products">
+
+    </div>
+
+    <div class="table_footer_item paging_container">
+        <div class="navigation_container">
+            <div class="paging_item previous_button"> Previous </div>
+            <div class="page_number_container"></div>
+            <div class="paging_item next_button"> Next </div>
+            <div class="loading_small">
+                <img class="loading_spinner" src="@Url.Content("~/Content/Images/loading_small.gif")" />
+            </div>
+            
+        </div>
+    </div>
+</div>
